@@ -1,0 +1,105 @@
+.products{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+
+.products img{
+    width: 60px;
+    height: 60px;
+
+}
+.products p{
+    margin-top: 20px;
+}
+
+.wrapper{
+    max-width: 1115px;
+    width: 100%;
+    margin: 0 auto;
+}
+.vision{
+   
+    background: url("../img/Uni.png") no-repeat center;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+.title_vis p{
+    margin-top: 95px;
+    margin-bottom: 0px;
+    font-size: 64px;
+    color: black;
+}
+
+.text_vis p{
+    font-size: 20px;
+    
+}
+
+.visimg img {
+    width: 570px;
+    height: 550px;
+}
+
+
+
+
+.activ{
+    min-height: 640px;
+    background-color: #ededed;
+    margin-top: 100px;
+}
+
+.title_text2{
+    font-size: 64px;
+    color: #324950;
+    padding-top: 70px;
+    font-weight: 700;
+}
+
+.colum h2{
+    font-size: 24px;
+    color: #57984C;
+}
+
+.colum .exam{
+    font-size: 18px;
+    font-weight: 400;
+    color: #324950;
+}
+
+
+
+
+.colum a{
+    color: #57984C;
+}
+
+.colum a:hover{
+    text-decoration: none;
+    color:#57984C;
+}
+
+
+
+@media (max-width: 990px){
+    .vision{
+        padding: 20px;
+    }
+    .Vision, .Mission{
+        text-align: center;
+    }
+    .title_vis p{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 560px){
+    .visimg img{
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+}

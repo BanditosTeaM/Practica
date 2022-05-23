@@ -1,0 +1,241 @@
+.wrapper{
+    max-width: 1115px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    background: #FFFFFF;
+}
+
+header{
+    min-height: 133px;
+}
+
+.logo{
+    float: left;
+    width: 166px;
+    height: 83px;
+}
+
+.search input, button{
+    background: transparent;
+    border: none;
+    display: inline-flex;
+}
+
+
+.search button{
+    float: right;
+}
+
+.search{
+    border-bottom: 1px solid black;
+    width: 350px;
+    height: 29px;
+    float: right;
+}
+
+.search input {
+    outline:none;
+}
+
+.search, .logo{
+    justify-content: space-around; 
+    display: inline-block;
+}
+
+/* .menu{
+    font-family: 'RotondaBold';
+    float: right;
+    font-size: 18px;
+    margin-top: -50px;
+}  */
+
+.complex_list{
+    display: flex;
+}
+
+
+.complex_list li a {
+    text-decoration: none;
+    margin: 10px;
+    color: #324950;
+}
+
+
+.tomatimg{
+    height: 480px;
+    background: url(../img/potato/potatobg.png) center center/cover no-repeat;
+}
+
+.title_text{
+    font-family: 'RotondaBold';
+    margin-top: 51px;
+    font-size: 44px;
+    color: #324950;
+}
+
+.title_img{
+    margin-top: 40px;
+}
+
+.main_text{
+    margin-top: 40px;
+    font-size: 17px;
+    color: #324950;
+}
+
+.line2{
+    border-left: 4px solid #EB5757;
+    padding-left: 26px;
+    font-size: 17px;
+}
+
+.activ{
+    min-height: 450px;
+    width: 1152px;
+    background-color: white;
+    margin: 33px auto 47px auto;
+    font-size: 64px;
+    color: #324950;
+    padding-top: 20px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.colum{
+    font-size: 24px;
+    color: #324950;
+
+}
+
+.colum .exam{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #324950;
+}
+
+hr{
+    background-color: #324950
+}
+.prodTomat {
+    display: grid;
+    object-fit: contain;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(3, 321px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    object-fit: contain;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.wh_bg{
+    width: 259px;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 9px 0;
+    color: #57984C;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.menu{
+    margin-left: auto;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo{
+    margin-right: 50px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#toggler{
+    visibility: hidden;
+}
+/* #toggler,
+.navbar label{
+    display: none;
+} */
+@media screen and 
+(max-width: 790px){
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .navbar label{
+        display: inline-flex;
+        align-items :center;
+        cursor: pointer;
+    }
+    #toggler{
+        visibility: visible;
+    }
+    
+     #toggler:checked ~ .menu{
+         
+        background-color: #324950;
+        max-height: 100%;
+    } 
+    .logo {
+        margin-bottom: 20px;
+    }
+    .title{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 590px){
+    .logo, .search{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .search {
+        margin-top: 20px;
+        
+    }
+}
+
+
+@media (max-width:767px){
+    .inf_tomat, .title__text {
+        text-align: center;
+    }
+    .crosses {
+        display: flex;
+        justify-content: center;
+    }
+    .activ{
+        padding-top: 55px;
+        padding-bottom: 55px;
+        width: 100%;
+    } 
+}
