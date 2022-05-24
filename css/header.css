@@ -72,7 +72,7 @@ header{
 
 
 .title {
-    padding: 230px 0 300px 0;
+    padding: 230px 0 200px 0;
 }
 
 .but_read{
@@ -84,6 +84,16 @@ header{
     border: none;
     background-color: #57984C;
     font-family: 'Roboto';
+}
+
+.subscribe-for-push{
+    display: block;
+    width: 320px;
+    height: 45px;
+    color: #fff;
+    border: none;
+    background-color: #57984C;
+    margin: 0 auto;
 }
 
 .but_read{
